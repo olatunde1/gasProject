@@ -3,8 +3,7 @@ import { useState } from 'react';
 import maint from '../images/maint.jpg';
 import '../index.css';
 import Bounce from 'react-reveal/Bounce';
-import Roll from 'react-reveal/Roll';
-
+import Slide from 'react-reveal/Slide';
 export default () => {
 
     return (
@@ -31,13 +30,13 @@ export default () => {
                 </div>
             </Bounce>
                 <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
-                <Roll right>
+                <Slide bottom>
                     <img 
                         src={maint}
                         alt="" 
                         className="w-full" 
                     />
-                </Roll>
+                </Slide>
                 </div>
             </div>
 

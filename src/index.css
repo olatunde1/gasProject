@@ -46,3 +46,13 @@
     border:2px solid gainsboro;
     /* background-color: rgb(197, 198, 196); */
 }
+
+.eachCard :hover{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+
+}
