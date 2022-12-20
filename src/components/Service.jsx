@@ -1,7 +1,8 @@
 import React from 'react'
 import Bounce from 'react-reveal/Bounce';
 
-export default() => {
+
+const Service = () => {
   return (
     <div className='service'>
         <section className=" mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
@@ -22,3 +23,4 @@ export default() => {
   )
 }
 
+export default Service
