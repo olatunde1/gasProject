@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import CTA from './components/CTA'
 import Service from "./components/Service";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Service />
       <CTA />
+      <Footer />
     </>
   );
 }

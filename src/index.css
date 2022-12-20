@@ -27,7 +27,7 @@
 }
 
 .service{
-    background-image: url(./images/back2.jpg);
+    background-image: url(./images/back7.jpeg);
     /* color: #fff; */
     background-attachment: fixed;
     filter: brightness(90%);
@@ -49,10 +49,19 @@
 
 .eachCard :hover{
     -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-    background-color: rgb(224, 224, 224);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-color: #f2f8f9;
     cursor: pointer;
+    
+}
 
+.Footer {
+    background-image: url(./images/back5.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+    filter: brightness(90%);
 }

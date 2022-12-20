@@ -48,7 +48,7 @@ export default () => {
             <div className="text-left mt-24">
             <Zoom left>
                 <h1 className="text-4xl text-gray-800 font-semibold">
-                Innovation that works.
+                Innovation <span className="text-indigo-600">that </span>works.
                 </h1>
             </Zoom>
             <Roll right>
