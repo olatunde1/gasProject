@@ -2,7 +2,7 @@ import React from "react"
 import logo from '../images/logo.png';
 
 
-const Footer = () => {
+export default function Footer () {
     const footerNavs = [
         {
             href: 'javascript:void()',
@@ -11,10 +11,6 @@ const Footer = () => {
         {
             href: 'javascript:void()',
             name: 'Blog'
-        },
-        {
-            href: 'javascript:void()',
-            name: ''
         },
         {
             href: 'javascript:void()',
@@ -31,7 +27,7 @@ const Footer = () => {
         }
     ]
     return (
-        <div className="Footer mt-12">
+        <div className="Footer">
         <footer className="text-white px-4 py-32 max-w-screen-xl mx-auto">
        <div className="max-w-lg sm:mx-auto sm:text-center">
            <img src={logo} className="w-64 sm:mx-auto" />
@@ -97,11 +93,12 @@ const Footer = () => {
                fill: currentColor;
            }
        `}</style>
+        
    </footer>
    </div>
     )
 }
   
-export default Footer
+
 
 

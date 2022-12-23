@@ -5,16 +5,16 @@ import '../index.css';
 
 
 
-export default (Nav) => {
+export default function Nav () {
 
     const [state, setState] = useState(false)
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-      { title: "HOME", path: "javascript:void(0)" },
-      { title: "ABOUT US", path: "javascript:void(0)" },
-      { title: "SERVICE LOCATOR", path: "javascript:void(0)" },
-      { title: "CONTACT", path: "javascript:void(0)" }
+      { title: "HOME", path: 'Hero' },
+      { title: "ABOUT US", path: "" },
+      { title: "SERVICE LOCATOR", path: "" },
+      { title: "CONTACT",path:'Contact'} 
   ]
 
   return (
@@ -47,9 +47,10 @@ export default (Nav) => {
                     }
                 </button>
             </div>
+            
             <ul className={`flex-1 justify-between mt-12 md:flex md:mt-0 ${state ? '' : 'hidden'}`}>
                 <li className="order-2 pb-5 md:pb-0">
-                    <a href="javascript:void(0)" className="py-3 px-6 rounded-md shadow-md text-white text-center bg-indigo-500 focus:shadow-none block md:inline">
+                    <a href="https://api.whatsapp.com/send?phone=+2348035331782&text=I will like to request for your service" className="py-3 px-6 rounded-md shadow-md text-white text-black hover:bg-indigo-500 hover:text-white focus:shadow-none block md:inline">
                         REQUEST SERVICE
                     </a>
                 </li>

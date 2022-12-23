@@ -7,7 +7,7 @@ import Zoom from 'react-reveal/Zoom';
 import Roll from 'react-reveal/Roll';
 
 
-export default () => {
+export default function CTA ()  {
 
     const posts = [
         {
@@ -43,7 +43,7 @@ export default () => {
     ]
     
     return (
-        <div className="hero ">
+        <div className="">
             <section className="pt-4 mx-auto px-4 max-w-screen-xl lg:px-8">
             <div className="text-left mt-24">
             <Zoom left>
