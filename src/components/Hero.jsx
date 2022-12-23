@@ -8,7 +8,7 @@ import Slide from 'react-reveal/Slide';
 export default function Hero ()  {
     return (
         <div className='hero'>
-        <section className="cta-sec relative max-w-screen-xl mx-auto py-4 px-4 sm:px-8 mt-36">
+        <section className="cta-sec relative max-w-screen-xl mx-auto py-4 px-4 sm:px-8 mt-12">
             <div className="absolute top-0 left-0 w-full h-full bg-white opacity-40"></div>
             <div className="relative z-0 gap-5 items-center lg:flex">
             <Bounce left cascade>

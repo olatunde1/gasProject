@@ -18,12 +18,7 @@
 
 
 .wrap {
-    position: fixed !important;
-    top: 0;
-    z-index: 99;
-    width: 100%;
-    background-color: #fff !important;
-    background-image: none !important;
+   font-family: Saol, Times, "Times New Roman", serif;;
 }
 
 .service{
@@ -475,6 +470,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 [hidden] {
   display: none;
+}
+
+
+ /* Add this style to your css file */
+.sticky-nav {
+     animation: sticky-nav 300ms;
+}
+    
+@keyframes sticky-nav {
+    0% {
+        transform: translateY(-6em)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
 }
 
 
