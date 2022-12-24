@@ -5,7 +5,7 @@ import Bounce from 'react-reveal/Bounce';
 export default function Service() {
   return (
     <div className='service'>
-        <section className=" mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
+        <section className=" mt-0 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
             <Bounce top cascade>
 
                 <div className="text-center space-y-4">

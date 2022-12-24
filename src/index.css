@@ -557,3 +557,29 @@ form {
   background-image: url(./images/whatsapp-logo.png);
 }
 
+element.style {
+  will-change: transform;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: translate3d(-1331.78px, 0px, 0px);
+  background-color: #212529;
+  height: 2rem;
+}
+
+.css-ph13k3-Typography-mono1 {
+  font-family: "Simplon Mono", "Courier New", Courier, monospace;
+  line-height: 64px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(106, 115, 101);
+  display: block;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 64px;
+  width: max-content;
+  margin: 0px;
+}
